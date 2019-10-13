@@ -1,0 +1,21 @@
+div {
+  text-align: left;
+}
+
+.account-curr-lang-wrap ul li.top-hove ul > li > a::before {
+  background: #ff3d2a none repeat scroll 0 0;
+  border-radius: 50%;
+  content: "";
+  height: 7px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 13px;
+  transition: all 0.3s ease-in-out 0s;
+  width: 7px;
+  z-index: 999;
+}
+
+.main-menu ul li.top-hove ul li:hove > a {
+  padding-left: 12px;
+}
